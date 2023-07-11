@@ -14,3 +14,4 @@ cmake .. -DCMAKE_TOOLCHAIN_FILE=../toolchain/gcc.cmake
 make -j8
 
 truncate -s 512 *.bin
+
